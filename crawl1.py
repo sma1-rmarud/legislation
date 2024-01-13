@@ -26,7 +26,6 @@ def get_legi_dict(url1, url2, pages):
         for i, lst_item in enumerate(lst_items):
             if i == 0:
                 continue
-            
             items = lst_item.find_elements(By.TAG_NAME, 'td')
 
             legi_dict={
